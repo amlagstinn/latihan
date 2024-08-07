@@ -23,7 +23,6 @@ function animal(name, type) {
   console.log(animal(myName, myAnimal));
 
 
-
   //exercise class
   class Mahasiswa {
     constructor(name, department) {
@@ -34,11 +33,11 @@ function animal(name, type) {
         console.log(`Halo, nama saya ${this.name} dan saya dari jurusan ${this.department}.`);
       }
 }
-
   const mahasiswa1 = new Mahasiswa("Amelia", "Sistem Informasi");
-  
-  // Memanggil method introduction()
+  // Memanggil introduction()
   mahasiswa1.introduction();
+
+
 
   //EXERCISE LOOPING
   const friends = ["LIAA", "HUSNIL", "NURUL", "MANDA", "DIANA"];
